@@ -1,0 +1,21 @@
+.container {
+  margin: 50px 20px;
+
+  ul {
+    list-style-type: none;
+    margin: 7px 0;
+
+    li {
+      margin: 10px 0;
+
+      div {
+        display: flex;
+        align-items: center;
+
+        span {
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+}

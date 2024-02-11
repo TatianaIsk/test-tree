@@ -1,8 +1,14 @@
 import TreeNode from "../src/components/TreeNode";
 import { data } from "../src/data";
 
+import { proximaNova } from "../src/assets/styles/fonts/fonts";
+
+import clsx from "clsx";
+
+import s from "./Tree.module.scss";
+
 const Tree = () => (
-  <div id="tree">
+  <div id="tree" className={clsx(proximaNova.className, s.container)}>
     <ul>
       {data.services
         .filter((service) => service.head === null)
